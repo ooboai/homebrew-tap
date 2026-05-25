@@ -1,28 +1,28 @@
 class Oobo < Formula
   desc "AI coding analytics — track sessions, tokens, attribution across all your AI tools"
   homepage "https://oobo.ai"
-  version "1.0.1"
+  version "1.0.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/ooboai/oobo/releases/download/v1.0.1/oobo-v1.0.1-aarch64-apple-darwin.tar.gz"
-      sha256 "c54a55a5c92bb7ce1893bf3d132b06d2085993128aad7e1ba449147e4041ef3e"
+      url "https://github.com/ooboai/oobo/releases/download/v1.0.2/oobo-v1.0.2-aarch64-apple-darwin.tar.gz"
+      sha256 "5b6e7490db7c2c40261dc51a1c69e91a61f6a7168b64babbcf93f8ab1c6a4907"
     end
     on_intel do
-      url "https://github.com/ooboai/oobo/releases/download/v1.0.1/oobo-v1.0.1-x86_64-apple-darwin.tar.gz"
-      sha256 "b492c991c50e1064f2f4a185cca797c8675b32f69ae3826dd6c496440dcea4a4"
+      url "https://github.com/ooboai/oobo/releases/download/v1.0.2/oobo-v1.0.2-x86_64-apple-darwin.tar.gz"
+      sha256 "a1b9a2010efbe71458d9569fc7e75e6869cbd35e5b917c37dafe436e72fb434e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ooboai/oobo/releases/download/v1.0.1/oobo-v1.0.1-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "7d3bb67d39ef4831fae1e2d0b36de04d36e30ea0225001cf4f3473a1707251ff"
+      url "https://github.com/ooboai/oobo/releases/download/v1.0.2/oobo-v1.0.2-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "2019d5104fd6e1f588b99e1611b2932d8df77c1690cfb717fe910784cc6db179"
     end
     on_intel do
-      url "https://github.com/ooboai/oobo/releases/download/v1.0.1/oobo-v1.0.1-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "15eaf4f8275e989a01bd9e5953196fa36a3648b81a46349f2468a853331c82e7"
+      url "https://github.com/ooboai/oobo/releases/download/v1.0.2/oobo-v1.0.2-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "1b9e454bf189517c3c1f163e933707fbcfaa27f17255929232431e27083a94b5"
     end
   end
 
